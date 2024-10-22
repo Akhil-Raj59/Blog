@@ -7,8 +7,8 @@ export class AuthService {
 
     constructor(){
         this.clinet
-            setEndPoint(conf.appwriteUrl)
-            setProject(conf.appwriteProjectId)
+            .setEndpoint(conf.appwriteUrl)
+            .setProject(conf.appwriteProjectId)
 
         this.account
             this.account = new Account(this.clinet)
